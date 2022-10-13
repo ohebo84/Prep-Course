@@ -41,25 +41,20 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  var valor
-  valor = 100-50;
-  return valor;
+  return x - y;
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
   var valor
-  valor = 5*7;
-  return valor;
+  return x +* y;
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  var valor
-  valor = 12/2;
-  return valor;
+  return x / y;
 }
 
 function sonIguales(x, y) {
