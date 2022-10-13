@@ -61,7 +61,7 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (x == y) {
+  if (x === y) {
     return "true";
   }
   return "false";
@@ -71,7 +71,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  return str1.length == str2.length;
+  return str1.length === str2.length;
 }
 
 function menosQueNoventa(num) {
@@ -80,8 +80,10 @@ function menosQueNoventa(num) {
   // Tu código:
   if (num < 90) {
     return "true";
+  }else {
+    return "false";
   }
-  return "false";
+  
 }
 
 function mayorQueCincuenta(num) {
@@ -103,8 +105,9 @@ function esPar(num) {
   // Tu código:
     if (num % 2 === 0) {
     return "true";
+  }else {
+    return "false";
   }
-  return "false";
 }
 
 function esImpar(num) {
@@ -113,21 +116,22 @@ function esImpar(num) {
   // Tu código:
    if (num % 2 === 1) {
     return "true";
+  }else {
+    return "false";
   }
-  return "false";
 }
 
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  return math.pow (num,2);
+  return Math.pow (num,2);
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  return math.pow (num,3);
+  return Math.pow (num,3);
 }
 
 function elevar(num, exponent) {
