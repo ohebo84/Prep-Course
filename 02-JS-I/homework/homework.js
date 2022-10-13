@@ -163,10 +163,9 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  var num;
-  if (num === 0) {
+  if (numero === 0) {
     return false;
-  }else if (num > 0) {
+  }else if (numero > 0) {
     return "Es positivo";
   }else {
     return "Es negativo";
@@ -185,7 +184,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var combinar = Nombre||' '||Apellido;
+  var combinar = nombre||' '||apellido;
   return combinar;
 }
 
