@@ -62,9 +62,9 @@ function sonIguales(x, y) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (x === y) {
-    return "true";
+    return true;
   }
-  return "false";
+  return false;
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -143,7 +143,7 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  return Math.pow(num);
+  return Math.round(num);
 }
 
 function redondearHaciaArriba(num) {
@@ -155,7 +155,7 @@ function redondearHaciaArriba(num) {
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  
+  return Math.random();
 }
 
 function esPositivo(numero) {
@@ -163,6 +163,14 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
+  var num;
+  if (num === 0) {
+    return false;
+  }else if (num > 0) {
+    return "Es positivo"
+  }else {
+    return "Es negativo"
+  }
   
 }
 
