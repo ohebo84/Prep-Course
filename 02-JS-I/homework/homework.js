@@ -70,7 +70,7 @@ function sonIguales(x, y) {
   // Tu código:
   var x = 5;
   var y = 7;
-  if (x === y) {
+  if (x == y) {
     return true;
   }
   return false;
