@@ -79,9 +79,9 @@ function menosQueNoventa(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (num < 90) {
-    return "true";
+    return true;
   }else {
-    return "false";
+    return false;
   }
   
 }
@@ -104,9 +104,9 @@ function esPar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
     if (num % 2 === 0) {
-    return "true";
+    return true;
   }else {
-    return "false";
+    return false;
   }
 }
 
@@ -115,9 +115,9 @@ function esImpar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
    if (num % 2 === 1) {
-    return "true";
+    return true;
   }else {
-    return "false";
+    return false;
   }
 }
 
@@ -137,19 +137,19 @@ function elevarAlCubo(num) {
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  return math.pow (num,exponent);
+  return Math.pow (num,exponent);
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  
+  return Math.pow(num);
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  
+  return Math.ceil(num);
 }
 
 function numeroRandom() {
