@@ -71,9 +71,9 @@ function sonIguales(x, y) {
   var x = 5;
   var y = 7;
   if (x == y) {
-    return true;
+    return "true";
   }
-  return false;
+  return "false";
 }
 
 function tienenMismaLongitud(str1, str2) {
