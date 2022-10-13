@@ -35,8 +35,10 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  var valor
-  valor = 5+7;
+  const x = 5;
+  const y = 7;
+  var valor;
+  valor = x + y;
   return valor;
 }
 
