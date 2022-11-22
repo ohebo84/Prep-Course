@@ -98,7 +98,9 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  return Math.floor(numero);
+  return Math.floor(0.8);
+  return Math.floor(1);
+  return Math.floor(-10);
 }
 
 function fizzBuzz(numero) {
