@@ -111,7 +111,7 @@ function fizzBuzz(numero) {
   }else if (numero % 5 === 0) {
     return "buzz";
   }else if (numero % 15 === 0) {
-    return "fizzbuzz"
+    return "fizzbuzz";
   }else {
     return numero
   }
