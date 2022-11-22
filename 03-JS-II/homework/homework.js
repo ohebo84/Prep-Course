@@ -113,7 +113,7 @@ function fizzBuzz(numero) {
   }else if (numero % 15 === 0) {
     return "fizzbuzz";
   }else {
-    return numero
+    return numero;
   }
 }
 
